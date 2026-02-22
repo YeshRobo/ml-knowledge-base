@@ -8,3 +8,10 @@ Welcome to your ML Documentation hub! Since you are new to Machine Learning, thi
 3. **[Model Families Explained](model_architectures/02_Model_Families_Explained.md)**: A breakdown of the models we are using: Tabular, ROCKET, and PyTorch Deep Sequence.
 
 *Note: This folder is initialized as its own separate Git repository! You can push it to a new GitHub repo to keep it separate from your main code, or just keep it here for easy reference.*
+
+## How to embedding this in other projects
+To include this knowledge base in any future projects, navigate to your new project's folder in the terminal and run:
+
+```bash
+git submodule add https://github.com/YeshRobo/ml-knowledge-base.git docs/ml_knowledge_base
+```
